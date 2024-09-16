@@ -6,7 +6,7 @@ while(escolha == "y") {
     let palpite = 0, contTentativas = 0;
 
     let username = prompt("Username: ");
-
+    
     while(palpite != numeroSorteado) {
         palpite = prompt("Seu palpite");
         contTentativas++;
